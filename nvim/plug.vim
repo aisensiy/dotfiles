@@ -21,6 +21,7 @@ if has("nvim")
   Plug 'hrsh7th/cmp-buffer'
   Plug 'hrsh7th/cmp-path'
   Plug 'hrsh7th/cmp-cmdline'
+  Plug 'hrsh7th/cmp-copilot'
   Plug 'hrsh7th/nvim-cmp'
 
   Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
@@ -30,6 +31,8 @@ if has("nvim")
   Plug 'nvim-telescope/telescope.nvim'
 
   Plug 'windwp/nvim-autopairs'
+
+  Plug 'github/copilot.vim'
 endif
 
 call plug#end()
