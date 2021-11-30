@@ -12,7 +12,6 @@ Plug 'NLKNguyen/papercolor-theme'
 if has("nvim")
 
   Plug 'neovim/nvim-lspconfig'
-  Plug 'tami5/lspsaga.nvim', { 'branch': 'nvim51' }
   Plug 'folke/lsp-colors.nvim'
 
   Plug 'onsails/lspkind-nvim'
