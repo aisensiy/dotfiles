@@ -41,7 +41,7 @@ endtry
 " Highlights "{{{
 " ---------------------------------------------------------------------
 set cursorline
-"set cursorcolumn
+set cursorcolumn
 
 " Set cursor line color on visual mode
 highlight Visual cterm=NONE ctermbg=236 ctermfg=NONE guibg=Grey40
