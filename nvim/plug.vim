@@ -15,6 +15,8 @@ if has("nvim")
   Plug 'folke/lsp-colors.nvim'
 
   Plug 'onsails/lspkind-nvim'
+  
+  Plug 'kosayoda/nvim-lightbulb'
 
   Plug 'hrsh7th/cmp-nvim-lsp'
   Plug 'hrsh7th/cmp-buffer'
