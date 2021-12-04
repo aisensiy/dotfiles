@@ -34,6 +34,11 @@ if has("nvim")
   Plug 'windwp/nvim-autopairs'
 
   Plug 'github/copilot.vim'
+	
+  Plug 'ekickx/clipboard-image.nvim'
+
+  Plug 'windwp/nvim-projectconfig'
+
 endif
 
 call plug#end()
