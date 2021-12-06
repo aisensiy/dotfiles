@@ -4,7 +4,6 @@ nnoremap <silent> <C-p> <cmd>lua require('telescope.builtin').find_files()<CR>
 nnoremap <silent> ;r <cmd>lua require('telescope.builtin').live_grep()<cr>
 nnoremap <silent> <C-e> <cmd>lua require('telescope.builtin').oldfiles()<cr>
 nnoremap <silent> \\ <cmd>Telescope buffers<cr>
-nnoremap <silent> ;; <cmd>Telescope help_tags<cr>
 
 lua << EOF
 function telescope_buffer_dir()

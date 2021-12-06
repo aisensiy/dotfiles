@@ -39,6 +39,8 @@ if has("nvim")
 
   Plug 'windwp/nvim-projectconfig'
 
+  Plug 'akinsho/bufferline.nvim'
+
 endif
 
 call plug#end()
