@@ -43,6 +43,8 @@ if has("nvim")
 
   Plug 'nvim-lualine/lualine.nvim'
 
+  Plug 'lukas-reineke/indent-blankline.nvim'
+
 endif
 
 call plug#end()
