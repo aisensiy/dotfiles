@@ -10,7 +10,7 @@ require'nvim-treesitter.configs'.setup {
     disable = {},
   },
   indent = {
-    enable = false,
+    enable = true,
     disable = {},
   },
   ensure_installed = {
@@ -21,10 +21,19 @@ require'nvim-treesitter.configs'.setup {
     "yaml",
     "html",
     "scss",
-    "python"
+    "python",
+    "javascript",
+    "typescript",
+    "java",
+    "go"
   },
 }
 
 local parser_config = require "nvim-treesitter.parsers".get_parser_configs()
 parser_config.tsx.used_by = { "javascript", "typescript.tsx" }
+
 EOF
+
+set foldmethod=expr
+set foldexpr=nvim_treesitter#foldexpr()
+
