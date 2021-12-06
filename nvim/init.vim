@@ -154,10 +154,6 @@ endif
 " ---------------------------------------------------------------------
 set exrc
 
-let NERDTreeShowHidden=1
-
-let g:fzf_layout = { 'window': { 'width': 1, 'height': 0.5, 'relative': v:true, 'yoffset': 1.0 } }
-let g:fzf_preview_window = ['right:40%:hidden', 'ctrl-/']
 "}}}
 
 " vim: set foldmethod=marker foldlevel=0:
