@@ -41,6 +41,8 @@ if has("nvim")
 
   Plug 'akinsho/bufferline.nvim'
 
+  Plug 'nvim-lualine/lualine.nvim'
+
 endif
 
 call plug#end()
