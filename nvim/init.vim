@@ -96,8 +96,11 @@ endif
 runtime ./maps.vim
 "}}}
 
-" vim: set foldmethod=marker foldlevel=0:
+" Folding "{{{
 " ---------------------------------------------------------------------
+set nofoldenable
+set foldlevel=99
+"}}}
 
 " init autocmd
 autocmd!
