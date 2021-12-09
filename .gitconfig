@@ -1,0 +1,70 @@
+# [ghq]
+# root = ~/ghq
+# 
+# [http]
+#   proxy = socks5://127.0.0.1:7890
+# [https]
+#   proxy = socks5://127.0.0.1:7890
+
+[core]
+  editor = /opt/homebrew/bin/nvim
+	excludesfile = ~/.gitignore_global
+  ignorecase = false
+[user]
+	name = <name>
+	email = <email>
+	signingkey = <key>
+[github]
+  user = <github email>
+[alias]
+  st = status
+  di = diff
+  co = checkout
+  ci = commit
+  br = branch
+  sta = stash
+  llog = log --date=local
+  flog = log --pretty=fuller --decorate
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+  lol = log --graph --decorate --oneline
+  lola = log --graph --decorate --oneline --all
+  blog = log origin/master... --left-right
+  ds = diff --staged
+  fixup = commit --fixup
+  squash = commit --squash
+  unstage = reset HEAD
+  rum = rebase master@{u}
+  stpp = subtree push --prefix
+[apply]
+  whitespace = nowarn
+[color]
+  branch = auto
+  diff = auto
+  interactive = auto
+  status = auto
+  ui = auto
+[branch]
+  autosetupmerge = true
+[rebase]
+  autosquash = true
+[pull]
+  rebase = true
+[push]
+  default = simple
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	required = true
+	process = git-lfs filter-process
+[commit]
+	gpgsign = true
+[gpg]
+	program = /usr/local/bin/gpg
+[init]
+	defaultBranch = master
