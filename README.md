@@ -2,6 +2,8 @@ Fork from https://github.com/craftzdog/dotfiles-public and then made my own cust
 
 ## fish
 
+![](img/fish-overview.png)
+
 ### plugins
 
 - jorgebucaran/fisher - for plugin management
