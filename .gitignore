@@ -1,3 +1,16 @@
 .DS_Store
 temp_dirs/
 undodir/
+fish_variables
+_*.fish
+_*.py
+tide/
+fishd.tmp*
+fish/completions/fisher.fish
+fish/completions/nvm.fish
+fish/completions/tide.fish
+fish/conf.d/fzf.fish
+fish/conf.d/nvm.fish
+fish/conf.d/z.fish
+fish/conf.d/_tide_init.fish
+fish/conf.d/fish-ssh-agent.fish
