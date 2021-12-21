@@ -51,6 +51,8 @@ test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shel
 bass source ~/.nvm/nvm.sh
 nvm use lts
 
+direnv hook fish | source
+
 switch (uname)
   case Darwin
     source (dirname (status --current-filename))/config-osx.fish
