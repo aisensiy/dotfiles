@@ -45,6 +45,7 @@ if has("nvim")
 
   Plug 'lukas-reineke/indent-blankline.nvim'
 
+  Plug 'chipsenkbeil/distant.nvim'
 endif
 
 call plug#end()
